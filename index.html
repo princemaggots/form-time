@@ -1,0 +1,45 @@
+<body> 
+  <header> 
+      <h1 id="title"> 
+        Harry Potter Survey
+    </h1>
+    <p id="description"> <i>why am i so into HP rn? no idea but its happening! </i></p> 
+  </header>
+  
+  <main id="container">
+   <form id="survey-form">
+     <label for="name" id="name-label"> Name </label> <br>
+      <input required type="text"  id="name" placeholder="Enter your name">
+     <label for="email" id="email-label"> Email </label>
+     <input required type="email" id="email" placeholder="Enter your email">
+     <label for="number" id="number-label"> Age (optional) </label>
+     <input type="number" id="number" min="10" max="99" placeholder="Age">
+     <label for="houses"> What is your Harry Potter house? </label>
+     <select  required id="dropdown">
+       <option value="Gryffindor"> Gryffindor</option>
+       <option value="Slytherin"> Slytherin </option>
+       <option value="Ravenclaw"> Ravenclaw</option>
+       <option value="Hufflepuff"> Hufflepuff</option>
+     </select>
+     <label for="familiar"> What would your pet be? </label><br>
+     <input type="radio" name="familiar" value="Owl">Owl <br>
+      <input type="radio" name="familiar" value="Cat">Cat<br>
+     <input type="radio" name="familiar" value="Toad">Toad<br>
+     <input type="radio" name="familiar" value="Rat">Rat<br><br>
+     <label for="character"> What is your favorite character(s)?</label><br>
+     <input type="checkbox" name="character" value="Harry"> Harry Potter <br>
+     <input type="checkbox" name="character" value="Ron"> Ron Weasley <br>
+    <input type="checkbox" name="character" value="Hermione"> Hermione Granger <br>
+      <input type="checkbox" name="character" value="Draco"> Draco Malfoy <br>
+     <input type="checkbox" name="character" value="Snape"> Severus Snape <br>
+     <input type="checkbox" name="character" value="Dumbledore"> Dumbledore <br>
+     <input type="checkbox" name="character" value="Hagrid"> Hagrid <br>
+     <input type="checkbox" name="character" value="McGongall"> McGongall <br>
+     <input type="checkbox" name="character" value="Sirius">Sirius Black<br>
+     <input type="checkbox" name="character" value="Lupin">Lupin<br><br>
+     <label for="additional"> Any characters not listed: </label>
+     <textarea id="additional" placeholder="Enter characters here..."></textarea>
+     <input type="submit" id="submit"></input>
+    </form>  
+  </main>    
+</body>
